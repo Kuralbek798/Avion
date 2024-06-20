@@ -4,3 +4,33 @@
 .header__container {
   display: flex;
 }
+
+.header-top__container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-bottom__container {
+  align-items: center;
+  justify-content: center;
+}
+
+.header_details {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #726e8d;
+  text-decoration: none;
+}
