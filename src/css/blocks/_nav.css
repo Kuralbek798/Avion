@@ -1,0 +1,32 @@
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #726e8d;
+}
+
+.nav__link:focus {
+  outline: none;
+}
+
+.nav__link:focus {
+  outline: var(--outline);
+  outline-offset: var(--outline-offset);
+}
+
+@media(any-hover: hover){
+  .nav__link:hover{
+    background: var(--primary);
+  }
+}
+
+.nav__link:active{
+  color:var(--dark-primary);
+}

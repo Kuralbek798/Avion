@@ -1,5 +1,6 @@
 /* global */
 @import url('_normalize.css');
+@import url('_fonts.css');
 @import url('_var.css');
 @import url('_settings.css');
 
@@ -7,4 +8,5 @@
 /* blocks */
 @import url('blocks/_btn.css');
 @import url('blocks/__header.css');
-@import url('blocks/_logo.css')
+@import url('blocks/_logo.css');
+@import url('blocks/_nav.css');

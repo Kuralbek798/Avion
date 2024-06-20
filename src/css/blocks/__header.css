@@ -5,9 +5,20 @@
   display: flex;
 }
 
+.header__top {
+  --container-width: 1330px;
+  padding: 23px 0;
+  background-color: var(--white);
+}
+
 .header-top__container {
   align-items: center;
   justify-content: space-between;
+}
+
+.header__botom {
+  padding: 20px 0;
+  background: var(--light-grey);
 }
 
 .header-bottom__container {
@@ -15,7 +26,7 @@
   justify-content: center;
 }
 
-.header_details {
+.header__details {
   display: flex;
   align-items: center;
   gap: 47px;
@@ -28,9 +39,59 @@
 }
 
 .header__link {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   color: #726e8d;
   text-decoration: none;
+  transition: var(--main-trs);
+}
+
+.header__link:focus {
+  outline: none;
+}
+
+.header__link:focus {
+  outline: var(--outline);
+  outline-offset: var(--outline-offset);
+}
+
+@media(any-hover: hover){
+  .header__link:hover{
+    background: var(--primary);
+  }
+}
+
+.header__link:active{
+  color:var(--dark-primary);
+}
+
+.header__buttons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__button:focus {
+  outline: none;
+}
+
+.header__button:focus {
+  outline: var(--outline);
+  outline-offset: var(--outline-offset);
+}
+
+@media(any-hover: hover){
+  .header__button:hover{
+    background: var(--primary);
+  }
+}
+
+.header__button:active{
+  color:var(--dark-primary);
 }
