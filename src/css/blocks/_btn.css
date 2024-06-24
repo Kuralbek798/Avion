@@ -8,11 +8,16 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
+  text-decoration: none;
   transition: var(--main-trs);
 }
 
 .btn--theme-dark {
-  text-decoration: none;
   background: rgba(249, 249, 249, 0.15);
   color: var(--white);
+}
+
+.btn--theme-light{
+  color: var(--dark-primary);
+  background: var(--light-grey);
 }
