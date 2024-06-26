@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form__input {
+  border: none;
+  width: 354px;
+  height: 56px;
+  background: var(--light-grey);
+  /*  */
+  padding-left: 32px;
+  padding-right: 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+ 
+}
+
+.form__input::placeholder{
+    color: rgba(42, 37, 75, 0.2);
+}
+

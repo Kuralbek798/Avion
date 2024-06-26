@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: center;
   padding: 16px 32px;
+  border: none;
+  cursor: pointer;
   /* width: 170px;
   height: 56px; */
   font-weight: 400;
@@ -20,4 +22,9 @@
 .btn--theme-light{
   color: var(--dark-primary);
   background: var(--light-grey);
+}
+
+.btn--theme-darker{
+  color: var(--white);
+  background: var(--dark-primary);
 }

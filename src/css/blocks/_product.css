@@ -1,4 +1,5 @@
 .product {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -37,9 +38,17 @@
   text-decoration: none;
 }
 
+.product__link::after{
+  content: "";
+  position: absolute;
+  /*inset: 0; растягивает ссылку по всей величине родителя.*/
+  inset: 0;
+}
+
 .product__price{
 font-weight: 400;
 font-size: 18px;
 line-height: 150%;
 color: var(--dark-primary);
 }
+
